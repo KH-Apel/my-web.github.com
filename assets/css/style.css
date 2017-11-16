@@ -1,0 +1,147 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+      color: #222;
+}
+
+
+body {
+font-family: 'Open Sans', sans-serif;
+    
+}
+a:hover { text-decoration: none }
+
+
+.blog-box-bg-1 {background-image: url(../img/blog-box-1.jpg)}
+.blog-box-bg-2 {background-image: url(../img/blog-box-2.jpg)}
+.blog-box-bg-3 {background-image: url(../img/blog-box-3.jpg)}
+
+.section-title {
+    text-align: center;
+    color: #565656;
+    font-size: 17px;
+    margin-bottom: 70px;}
+
+.section-title h2: {color: #222;
+    margin-bottom: 20px;
+    }
+
+h2 {font-size: 32px;}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+}
+
+section.section-padding {
+    100px 0;
+    }
+
+
+
+.blog-box-bg {background-position: center;
+    height: 200px;
+    background-size: cover;
+    background-color: #DADADA;
+    border: 1px solid #F1A55A;
+}
+
+
+
+h2 {font-size: 32px;}
+
+.blog-box-bg {
+  border-bottom: 0px;
+}
+
+.blog-box-bg.blog-box-bg {
+  background-position: center;
+  height: 200px;
+  background-size: cover;
+  background-color: #ddd;
+  border: 1px solid #FEAF60;
+}
+
+.blog-box-cotent {
+  border: 1px solid #f4f4f4;
+  padding: 20px;
+  transition: .3s;
+}
+.blog-box-meta i.fa {
+  color: #F1A55A;
+}
+body {
+  font-size: 17px;
+  color: #565656;
+}
+.blog-meta {
+  font-size: 14px;
+    margin-top: 200px;
+}
+
+
+.blog-meta span{
+  padding-right: 10px;  
+}
+
+.blog-meta span: last-child{
+  margin-right: 0px;  
+}
+
+
+.blog-box-cotent h3 {
+  font-size: 20px;
+    margin-top: 15px;
+}
+
+.blog-readmore-btn {
+  background: #F1A55A;
+  color: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  marging-top: 5px;
+  transition: .3s;
+}
+.blog-readmore-btn: hover {
+  background: #333;
+  color: #fff;
+}
+.blog-readmore-btn:hover {
+  background-color: #322E3E;
+  color: #fff;
+}
+
+.sinle-blog-box:hover .blog-box-content {
+  border-color: #F4E1C3;
+}
+
+
+
+
+
