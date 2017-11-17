@@ -1,0 +1,151 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+    font-family: 'Lato', sans-serif;
+
+}
+a:hover { text-decoration: none }
+
+
+
+
+.section-padding {padding: 80px 0;}
+
+
+
+
+
+.cuote-from-wrap img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+form {
+    padding-top: 18px;
+}
+
+
+.blue-cuote-form {
+    background: #19b5fe none repeat scroll 0 0;
+    margin-top: -106px;
+}
+
+.blue-cuote-form h3 {
+    color: #fff;
+    padding-bottom: 15px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.blue-cuote-form h3::before {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 50%;
+    margin-left: -65px;
+    position: absolute;
+    width: 130px;
+}
+
+.blue-cuote-form h3::after {
+    background: #fff none repeat scroll 0 0;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    bottom: -6.5px;
+    content: "";
+    height: 13px;
+    left: 50%;
+    margin-left: -6.5px;
+    position: absolute;
+    width: 13px;
+
+}
+
+
+
+
+
+
+
+
+.blue-cuote-form {
+    padding: 50px;
+}
+.blue-cuote-form input, .blue-cuote-form textarea {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-color: -moz-use-text-color -moz-use-text-color #fff;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 2px;
+    color: #fff;
+}
+.blue-cuote-form textarea {
+    height: 100px;
+    width: 90%;
+}
+
+
+
+.blue-form-submit button [typr-submit] {
+    background: #fff none repeat scroll 0 0;
+    color: #19b5fe;
+}
+
+button {
+}
+.blue-form-submit button [type-submit] {
+    text-align: center;
+}
+.blue-form-submit {
+    color: #19b5fe;
+    text-align: center;
+}
+
+button {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.blue-cuote-form {
+    padding-bottom: 30px;
+    padding-left: 130px;
+    padding-right: 100px;
+    margin-right: 60px;
+}
