@@ -1,0 +1,101 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+.video-area-bg {background-image: url(../img/full-width-video.jpg); background-color: #ddd; background-position: center; background-size: cover;}
+
+.check-icon li:before {font-family: fontAwesome; content: "\f00c";} 
+
+
+.video-area {
+    position: relative;
+}
+.video-area-bg {
+    box-shadow: 0 0 25px #2D204E;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 45%;
+}
+.video-play-btn {
+    background: #111 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 30px;
+    height: 100px;
+    line-height: 98px;
+    margin-top: -50px;
+    padding-left: 9px;
+    position: absolute;
+    right: -53px;
+    text-align: center;
+    top: 50%;
+    width: 100px;
+}
+section {
+}
+h3 {
+    color: #111111;
+}
+ul .check-icon {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+ul.check-icon {
+    color: #666;
+    font-size: 17px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.check-icon li {
+}
+.check-icon li::before {
+    color: #8dd18d;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.check-icon li {
+    padding-bottom: 3px;
+    padding-left: 35px;
+    position: relative;
+}
+.video-area {
+    padding: 10px 0;
+}
+
+
+
